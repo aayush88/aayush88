@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NO TITLE</title>
+	<meta charset="utf-8">
+	<meta name="Aayush" content="Form">
+</head>
+<body bgcolor="#ffffff" text="#ffffff" topmargin="0px" leftmargin="0px">
+	<form method="POST" name="userReg" action="" enctype="multipart/form-data">
+		<table width="960px" align="centre" bgcolor="#cccccc" border=1 cellpadding=5 cellspacing=10>
+			<tr>
+				<td>
+					Name
+				</td>
+				<td>
+				 <input type="text" name="username" size="20" maxlength="50" required="required" placeholder="username" />
+				</td>
+				</tr>
+				<tr>
+				<td>
+					password
+				</td>
+				<td>
+				 <input type="password" name="usernamepassword" size="20" maxlength="50" required="required" placeholder="password" />
+				</td>
+				</tr>
+				<tr>
+	             <td>
+	             	Email
+	             </td>
+	             <td>
+		        <input type="email" name="email" size="20" placeholder="you@domain.com" required="required"/>
+	          </td>
+	         </tr>
+				<tr>
+				   <td>
+				   	 Gender
+				   	</td>
+				   	<td>
+				   		<input type="radio" name="gender" value="M" checked> Male
+				        <input type="radio" name="gender" value="F" checked> Female
+				   </td>
+                   </tr>
+                   <tr>
+                   	<td>Courses
+                   	</td>
+                   	<td>
+                   		<input type="checkbox" name="php" value="php" checked/>php
+                        <input type="checkbox" name="html" value="html" checked/>html
+                        <input type="checkbox" name="css" value="css" checked/>css
+                        <input type="checkbox" name="js" value="js" checked/>javascript
+                   	</td>
+                   </tr>
+
+                   <tr>
+	             <td>
+	             	DOB
+	             </td>
+	             <td>
+		        <input type="date" name="DOB" />
+	          </td>
+	         </tr>
+
+	         <tr>
+	         	<td>Country
+	         	</td>
+	         	<td>
+	         		<select size="1" name="country">
+	         			<option value="np" selected>Nepal</option>
+	         			<option value="in">india</option>
+	         			<option value="pk">pakistan</option>
+	         			<option value="af">afghanistan</option>
+	         			<option value="sk">srilanka</option>
+	         			
+	         		</select>
+	         	</td>
+	         </tr>
+
+	          
+	           <tr>
+	             <td>
+	                Message
+	             </td>
+	             <td>
+		        <textarea rows="5" cols="50" name="message" placeholder="Your Message" required>
+		        	
+		        </textarea> />
+	          </td>
+	         </tr>
+
+                     <td>
+                     	<input type="submit" name="submit" value="REGISTER" />
+		                 <input type="reset" name="reset" value="CLEAR" />
+
+	</form>
+
+</body>
+</html>
